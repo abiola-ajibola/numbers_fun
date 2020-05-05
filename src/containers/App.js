@@ -41,7 +41,7 @@ class App extends React.Component {
         }} />
         <Button text={'Random math trivia'} clicked={() => {
           this.setState({ queryString: 'random/math' });
-          // console.log(this.state.queryString);
+
           onBtnClick(this.state.random);
         }
         } />
